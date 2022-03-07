@@ -17,6 +17,6 @@ class MainActivity : AppCompatActivity() {
             Analytics::class.java, Crashes::class.java
         )
 
-        Toast.makeText(this, "hello", Toast.LENGTH_SHORT).show()
+        Toast.makeText(this, "hello world", Toast.LENGTH_SHORT).show()
     }
 }
